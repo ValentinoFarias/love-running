@@ -1,7 +1,7 @@
 /* Google fonts import */.
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
-</style>
+
 
 /* Asterik Wildcare selector to override default styles added by the browser*/
 * {
@@ -9,6 +9,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 
 /* General body styles */
 body { 
@@ -18,6 +19,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'lato', sans-serif;
+}
 
 /* HEADER*/
 header {
@@ -29,8 +31,26 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;  
 
 }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+   
 h1 {
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
 }
 /* MAIN */
 main {
@@ -38,6 +58,7 @@ main {
     /* Make main take up remaining space */
     flex: 1 0 auto;
 }
+
 /* FOOTER */
 footer {
     background-color: lightgreen;
